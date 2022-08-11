@@ -1,0 +1,50 @@
+.container {
+    background-color: rgb(94, 142, 142);
+    width: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    transition: 0.2s;
+    box-shadow: 10px 10px 5px rgb(80, 72, 72);
+    gap: 5px;
+    width: 30%;
+  }
+
+  body {
+    margin: 0;
+    background-color: #655a5a;
+  }
+  .first_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .second_container {
+    color: rgb(72, 68, 76);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+  .third_container {
+    background-color: #ace4ec;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 25px;
+    justify-content: center;
+  }
+
+
+  .name,
+  .numberOfPages,
+  .publisher,
+  .authors,
+  .released {
+    margin: 0;
+    padding: 2.5px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+  }
